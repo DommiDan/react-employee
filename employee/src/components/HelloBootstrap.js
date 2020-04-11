@@ -3,11 +3,22 @@ import React from "react";
 function HelloBootstrap() {
   return (
     <div className="container">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-dark bg-dark">
         <a className="navbar-brand" href="#">
-          Navbar
+        FFVII Employees
         </a>
-        <button
+        <form className="form-inline" >
+          <input 
+          className="form-control mr-sm-2" 
+          type="search" 
+          placeholder="Search" 
+          aria-label="Search" />
+          <button className="btn btn-outline-success my-2 my-sm-0" 
+          type="submit">Search
+        </button>
+        </form>
+        
+        {/* <button
           className="navbar-toggler"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -16,7 +27,7 @@ function HelloBootstrap() {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon" />
-        </button>
+        </button> */}
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
