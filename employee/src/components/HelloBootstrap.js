@@ -4,11 +4,12 @@ import logo1 from "./img1/images/aerith.jpg";
 import logo2 from "./img1/images/barret.jpg";
 import logo3 from "./img1/images/seph.png";
 import logo4 from "./img1/images/tifa.jpg";
+import "./img1/index.css";
 // import friends from "./friends.json";
 
 function HelloBootstrap() {
   return (
-    <div className="container">
+    <div>
       <nav className="navbar navbar-dark bg-dark">
         <a className="navbar-brand" href="#">
         FFVII Employees
@@ -24,7 +25,7 @@ function HelloBootstrap() {
         </button>
         </form>
         </nav>
-
+        <div className="space"></div>
         <table class="table table-hover table-dark">
         <thead>
           <tr>
@@ -41,7 +42,7 @@ function HelloBootstrap() {
           <th scope="row">1</th>
           <td>
             <img src={logo} 
-            width="150" 
+            width="190" 
             height="150">
             </img>
           </td>
@@ -71,7 +72,7 @@ function HelloBootstrap() {
           <th scope="row">3</th>
           <td>
             <img src={logo2}  
-            width="150" 
+            width="190" 
             height="150">
             </img>
           </td>
@@ -86,7 +87,7 @@ function HelloBootstrap() {
           <th scope="row">4</th>
           <td>
             <img src={logo3}  
-            width="150" 
+            width="190" 
             height="150">
             </img>
           </td>
@@ -101,7 +102,7 @@ function HelloBootstrap() {
           <th scope="row">5</th>
           <td>
             <img src={logo4} 
-            width="150" 
+            width="190" 
             height="150">
             </img>
           </td>
